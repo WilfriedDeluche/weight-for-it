@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e3926ff21b73453f9f583e979f1405c3" Name="Diagramme1" ZoomLevel="114">
+        <EntityTypeShape EntityType="Model.Weight" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Consumption" Width="1.5" PointX="8.2382030003882036" PointY="28.838403074461223" />
+        <EntityTypeShape EntityType="Model.Food" Width="1.5" PointX="9.3676582115551739" PointY="17.378129728780188" />
+        <EntityTypeShape EntityType="Model.Meal" Width="1.5" PointX="0.75222734583179807" PointY="15.022380508027217" />
+        <EntityTypeShape EntityType="Model.Program" Width="1.5" PointX="6.875" PointY="6.125" />
+        <AssociationConnector Association="Model.FK_Consumption_ToFood" />
+        <AssociationConnector Association="Model.FK_Consumption_ToMeal" />
+        <EntityTypeShape EntityType="Model.UserProfile" Width="1.5" PointX="6.1603257945553986" PointY="26.400718269124962" />
+        <AssociationConnector Association="Model.FK_Program_ToUserProfile" />
+        <AssociationConnector Association="Model.FK_Weight_ToUserProfile" />
+        <AssociationConnector Association="Model.FK_Meal_ToUserProfile" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
