@@ -9,5 +9,6 @@
     <ul>
         <li><%: Html.ActionLink("S'inscrire", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })%></li>
         <li><%: Html.ActionLink("Se connecter", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })%></li>
+        <li><%: Html.ActionLink("Produits", "InsertFood", "Food", routeValues: null, htmlAttributes: new { id = "foodLink" })%></li>
     </ul>
 <% } %>
